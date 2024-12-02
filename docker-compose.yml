@@ -2,7 +2,7 @@ version: '3.7'
 services:
   app:
     container_name: amati_app
-    image: bocahankeren/amati-app:0.8
+    image: bocahankeren/amati-app:0.9
     ports:
       - "3000:3000"
     depends_on:
